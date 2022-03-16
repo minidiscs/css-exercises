@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8x;
 }
 
 input {
@@ -24,4 +25,54 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 32px 12px 0px;
+}
+
+.right-links,
+.left-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+  padding: 12px 32px 12px 0px;
 }
